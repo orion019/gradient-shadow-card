@@ -20,6 +20,16 @@ body {
     border-radius: 0.5rem;
     overflow: hidden;
 }
+.card::before {
+    content: "";
+    position: absolute;
+    width: 19%;
+    height: 49%;
+    transform: translate(8px, 4px);
+    background: linear-gradient(to top, #ff226c, #9627fd);
+    z-index: -1;
+    filter: blur(10px);
+}
 
 .img-card {
     width: 100%;
