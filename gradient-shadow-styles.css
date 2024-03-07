@@ -25,10 +25,10 @@ body {
     position: absolute;
     width: 19%;
     height: 49%;
-    transform: translate(8px, 4px);
+    transform: translate(8px, 2px);
     background: linear-gradient(to top, #ff226c, #9627fd);
     z-index: -1;
-    filter: blur(10px);
+    filter: blur(11px);
 }
 
 .img-card {
@@ -53,4 +53,5 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    color: #363636;
 }
